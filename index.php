@@ -11,5 +11,5 @@ $livre = new Livre ("Simetierre", "1983", 374, 15, $auteur);
 $livre2 = new Livre ("Ca", "1986", 1138, 20, $auteur);
 $livre3 = new Livre ("Ca", "1986", 1138, 20, $auteur);
 $livre4 = new Livre ("Ca", "1986", 1138, 20, $auteur);
-echo $auteur->afficherLivres();
-//echo $livre->getInfos();
+//echo $auteur->afficherLivres();
+echo $livre->getInfos();
